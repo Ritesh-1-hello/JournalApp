@@ -15,7 +15,7 @@ public class JournalEntryService {
 
 // Temporary change for stash demo
   //  Added new UI feature (dummy text for demo)
-
+//This project demonstrates advanced Git configuration and workflow.
 
     @Autowired
     JournalEntryRepo journalEntryRepo;
