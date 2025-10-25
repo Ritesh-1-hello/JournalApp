@@ -13,6 +13,9 @@ import java.util.Optional;
 @Component
 public class JournalEntryService {
 
+// Temporary change for stash demo
+  //  Added new UI feature (dummy text for demo)
+
 
     @Autowired
     JournalEntryRepo journalEntryRepo;
