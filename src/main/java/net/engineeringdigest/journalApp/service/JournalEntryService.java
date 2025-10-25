@@ -1,6 +1,7 @@
 package net.engineeringdigest.journalApp.service;
 
 
+import jdk.internal.net.http.common.Log;
 import net.engineeringdigest.journalApp.dao.JournalEntry;
 import net.engineeringdigest.journalApp.dao.JournalEntryRepo;
 import org.bson.types.ObjectId;
@@ -29,6 +30,7 @@ public class JournalEntryService {
     }
 
     public Optional<JournalEntry> getById(ObjectId objectId){
+        Log.requests(); // not required please remove
         return journalEntryRepo.findById(objectId);
 
     }
