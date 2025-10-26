@@ -36,6 +36,8 @@ public class JournalEntryService {
     }
 
     public boolean deleteById(ObjectId id){
+
+        //delete operation
         journalEntryRepo.deleteById(id);
         return true;
     }
