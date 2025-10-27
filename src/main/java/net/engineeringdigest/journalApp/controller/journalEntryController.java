@@ -35,7 +35,12 @@ public class journalEntryController {
 
     @GetMapping("/allJournals")
     public ResponseEntity<List<JournalEntry>> getAll(){
-      return  new ResponseEntity<>(journalEntryService.getAll(), HttpStatus.OK);
+
+        System.out.println("Auth module started");
+        System.out.println("Token validation feature");
+
+        return  new ResponseEntity<>(journalEntryService.getAll(), HttpStatus.OK);
+
     }
 
     @GetMapping("/getById/{id}")
