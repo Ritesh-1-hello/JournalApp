@@ -36,10 +36,12 @@ public class journalEntryController {
     @GetMapping("/allJournals")
     public ResponseEntity<List<JournalEntry>> getAll(){
 
+
         System.out.println("Auth module started");
         System.out.println("Token validation feature");
-
-        return  new ResponseEntity<>(journalEntryService.getAll(), HttpStatus.OK);
+        
+        System.out.println("Added user login feature");
+      return  new ResponseEntity<>(journalEntryService.getAll(), HttpStatus.OK);
 
     }
 
