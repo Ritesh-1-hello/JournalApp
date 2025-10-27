@@ -35,6 +35,7 @@ public class journalEntryController {
 
     @GetMapping("/allJournals")
     public ResponseEntity<List<JournalEntry>> getAll(){
+        System.out.println("Added user login feature");
       return  new ResponseEntity<>(journalEntryService.getAll(), HttpStatus.OK);
     }
 
