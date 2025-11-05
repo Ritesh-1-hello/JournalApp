@@ -38,7 +38,11 @@ public class JournalEntryService {
     public boolean deleteById(ObjectId id){
 
         //delete operation
+
         System.out.println("Logging enabled in develop");
+
+        System.out.println("Logging enabled");
+
         journalEntryRepo.deleteById(id);
         return true;
     }
