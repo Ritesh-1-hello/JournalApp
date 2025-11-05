@@ -39,7 +39,7 @@ public class journalEntryController {
 
         System.out.println("Auth module started");
         System.out.println("Token validation feature");
-        
+
         System.out.println("Added user login feature");
       return  new ResponseEntity<>(journalEntryService.getAll(), HttpStatus.OK);
 
