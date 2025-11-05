@@ -40,9 +40,13 @@ public class JournalEntryService {
 
         //delete operation
 
+
         System.out.println("Delete user method simulation");
 
         System.out.println("Logging enabled in develop");
+
+        System.out.println("Logging enabled");
+
 
         journalEntryRepo.deleteById(id);
         return true;
