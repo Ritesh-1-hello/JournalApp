@@ -47,7 +47,6 @@ public class JournalEntryService {
 
         System.out.println("Logging enabled");
 
-
         journalEntryRepo.deleteById(id);
         return true;
     }
