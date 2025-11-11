@@ -40,6 +40,8 @@ public class JournalEntryService {
         //delete operation
 
 
+
+
         System.out.println("Logging enabled in develop");
 
         System.out.println("Logging enabled");
