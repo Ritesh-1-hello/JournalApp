@@ -31,6 +31,7 @@ public class JournalEntryService {
 
     public Optional<JournalEntry> getById(ObjectId objectId){
         Log.requests(); // not required please remove
+        System.out.println("get by ID added");
         return journalEntryRepo.findById(objectId);
 
     }
